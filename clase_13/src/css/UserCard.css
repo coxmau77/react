@@ -1,0 +1,12 @@
+h1 {
+    background-color: tomato;
+    color: white;
+    padding: .5rem 1rem;
+    display: inline-block;
+    border-radius: 10px;
+    margin: .5rem;
+}
+
+h2 {
+    color: darkslategrey;
+}
