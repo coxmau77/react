@@ -30,7 +30,7 @@ export default function Team() {
                                 </div>
                             </div>
                         </li>
-                    ))}
+                    ))}    0
                 </ul>
             </div>
         </div>
