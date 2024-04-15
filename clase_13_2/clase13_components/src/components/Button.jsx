@@ -12,4 +12,3 @@ export const Button = ({txt = "no content text", onClick}) => {
     <button onClick = {onClick}>{txt}</button>
   )
 }
- 
