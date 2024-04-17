@@ -9,6 +9,6 @@
 export const Button = ({txt = "no content text", onClick}) => {
   return (
     // <button onClick = {console.log("Se ejecuto la funcionalidad del boton")}>{txt}</button>
-    <button onClick = {onClick}>{txt}</button>
+    <button className="bg-emerald-300 rounded-full py-1 px-4 m-2 text-sm text-slate-900" onClick = {onClick}>{txt}</button>
   )
 }

@@ -2,6 +2,8 @@
 // import { Card } from "./components/Card";
 import { Button } from "./components/Button";
 import Team from "./components/Team";
+import { Counter } from "./components/Counter";
+
 
 function App() {
 
@@ -16,20 +18,22 @@ function App() {
       <Button number="2" />
       <Button number={5} /> */}
 
-      <Button />
+      {/* <Button />
       <br />
-      <Button txt="Press me" />
+      <Button txt="Press me" /> */}
       {/* <br />
       <Button txt="Execute console log auto" onClick={console.log("1) Se ejecuto la funcionalidad del console log en cuanto se carga nuestra app, diriamos que 'en automatico'")}/>
       <br />
       <Button txt="Execute alert auto" onClick={alert("2) Se ejecuto la funcionalidad del boton apenas se cargo la app, diriamos que 'en automatico'")}/> */}
-      {/* <br />
+      <br />
       <Button txt="Execute console log" onClick={() => console.log("3) Se ejecuto la funcionalidad del console log, solo cuando se hace click sobre el boton")}/>
       <br />
-      <Button txt="Execute alert" onClick={() => alert("4) Se ejecuto la funcionalidad del boton , solo cuando se hace click sobre el boton")}/> */}
+      <Button txt="Execute alert" onClick={() => alert("4) Se ejecuto la funcionalidad del boton , solo cuando se hace click sobre el boton")}/>
 
-      <Team />
-      <Team />
+      {/* <Team /> */}
+      <br />
+      <Team propiedadA = {9999} titleName = "From props" boolean = {true}/>
+      <Counter/>
     </>
   )
 }
