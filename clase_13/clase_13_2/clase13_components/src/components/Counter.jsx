@@ -2,15 +2,20 @@
 // Lo primero que debemos hacer es importar los hooks de React, no es necesario instalar ya que es una funcionalidad nativa de esta libreria
 
 // 1) importar useState, Crea variables de estado dinamico
-import { useState } from "react";
+import { useState, useEffect } from "react";
 // 2) importar un boton
 import { Button } from "./Button";
+// 3) importar useEffect
+// import { useEffect } from "react";
 
 export const Counter = () => {
 
     // let [initialValue, changeValue] = useState(0)
     let [initialValue, setInitialValue] = useState(0)
 
+    useEffect(() => {
+        console.log('Se ejecuto useEffect()')
+    }, [initialValue]);
 
     return (
         <>

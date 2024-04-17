@@ -24,7 +24,7 @@ const people = [
 
 export default function Team(props) {
 
-    let {propiedadA, titleName, boolean} = props
+    let { propiedadA, titleName, boolean } = props
 
     return (
         <div className="dark:bg-slate-800 py-24 sm:py-32">
@@ -44,7 +44,7 @@ export default function Team(props) {
                                     <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-50">{person.name}</h3>
                                     <p className="text-sm font-semibold leading-6 text-indigo-600">{person.role}</p>
 
-                                    <Button txt="Execute console log" onClick={() => console.log(`Se ejecuto la funcionalidad del console log, para el miembro ${person.name}`)}/>
+                                    <Button txt="Execute console log" onClick={() => console.log(`Se ejecuto la funcionalidad del console log, para el miembro ${person.name}`)} />
                                 </div>
                             </div>
                         </li>
