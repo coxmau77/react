@@ -1,0 +1,16 @@
+/* https://youtu.be/0L6_rlNjOfE?list=PLLmrEAMmrRFz7spslTChC8F0w1m30U7t4&t=3992 */
+
+.grid-users {
+    background-color: rgba(137, 43, 226, 0.358);
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap: 1rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+@media(max-width: 560px) {
+    .grid-users {
+        grid-template-columns: 100%;
+    }
+}
