@@ -1,4 +1,5 @@
 // En este ejemplo, he definido dos conjuntos de clases: baseClasses y additionalClasses. baseClasses contiene las clases que se aplican independientemente de la lógica condicional, mientras que additionalClasses contiene clases que se aplican específicamente cuando userActive es true. Luego, concateno estas clases dentro de la expresión JSX para asegurarme de que todas se apliquen correctamente según la condición dada.
+
 export const Test = (props) => {
 
   let { nombre, whatsApp, userActive } = props;
