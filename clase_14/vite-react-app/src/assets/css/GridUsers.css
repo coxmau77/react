@@ -5,8 +5,11 @@
     display: grid;
     grid-template-columns: repeat(auto-fill,300px);
     gap: 1rem;
-    max-width: 1000px;
-    margin: 2rem auto;
+    /* max-width: 1000px; */
+    width: 100%;
+    margin: 2rem 1rem;
+    place-content: center;
+
 }
 
 @media(max-width: 560px) {
