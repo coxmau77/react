@@ -4,10 +4,7 @@ import './assets/css/App.css'
 
 export const App = () => {
   return (
-    // <>
-    //   <Test nombre="Mauricio" whatsApp={1169936986} userActive={true}/>
-    //   <Test nombre="Pepe" whatsApp={1169936986} userActive={false}/>
-    // </>
+    
     <>
       <header className="title">Usuarios</header>
       <main>
