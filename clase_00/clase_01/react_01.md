@@ -1,1 +1,0 @@
-Armado de lista de temas que se tocaron en la clase
