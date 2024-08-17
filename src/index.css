@@ -8,3 +8,9 @@ body {
     background: #222;
     min-height: 100vh;
 }
+
+.tw-cards {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
