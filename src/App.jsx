@@ -3,15 +3,19 @@ import { TwitterFollowCard } from "./TwitterFollowCard";
 
 export function App() {
   let formatUserName = userName => `@${userName}`
+  const git = { formatUserName: formatUserName, isFollowing:false }
+  const github = { formatUserName: formatUserName, userName: "github", isFollowing: true }
+  const node = { formatUserName: formatUserName, userName: "nodejs", isFollowing: false }
+
   return (
     <div className="tw-cards">
-      <TwitterFollowCard formatUserName={formatUserName} userName={"github"} isFollowing>
-        Git Hub
-      </TwitterFollowCard>
-      <TwitterFollowCard formatUserName={formatUserName} isFollowing={false}>
+      <TwitterFollowCard {... git}>
         Git
       </TwitterFollowCard>
-      <TwitterFollowCard formatUserName={formatUserName} userName={"nodejs"} isFollowing={false}>
+      <TwitterFollowCard {... github}>
+        Git Hub
+      </TwitterFollowCard>
+      <TwitterFollowCard {... node}>
         node js
       </TwitterFollowCard>
     </div>
