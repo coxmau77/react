@@ -1,7 +1,8 @@
 import './TwitterFollowCard.css'
 
 export function TwitterFollowCard({children,formatUserName,userName = 'Unknow ??', isFollowing}) {
-  
+  const buttonText = isFollowing ? 'Siguiendo' : 'Seguir'
+  const buttonClassFollow = isFollowing ? 'is-following' : ''
   return (
     <article>
         <header>
@@ -12,7 +13,9 @@ export function TwitterFollowCard({children,formatUserName,userName = 'Unknow ??
             </div>
         </header>
         <aside>
-            <button>Seguir</button>
+            <button className={buttonClassFollow}>
+              {buttonText}
+            </button>
         </aside>   
     </article>
   )
