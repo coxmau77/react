@@ -1,6 +1,6 @@
 import './TwitterFollowCard.css'
 
-export function TwitterFollowCard({children,formatUserName,userName, isFollowing}) {
+export function TwitterFollowCard({children,formatUserName,userName = 'Unknow ??', isFollowing}) {
   
   return (
     <article>

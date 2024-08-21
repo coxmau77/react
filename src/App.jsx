@@ -8,7 +8,7 @@ export function App() {
       <TwitterFollowCard formatUserName={formatUserName} userName={"github"} isFollowing>
         Git Hub
       </TwitterFollowCard>
-      <TwitterFollowCard formatUserName={formatUserName} userName={"git"} isFollowing={false}>
+      <TwitterFollowCard formatUserName={formatUserName} isFollowing={false}>
         Git
       </TwitterFollowCard>
       <TwitterFollowCard formatUserName={formatUserName} userName={"nodejs"} isFollowing={false}>
