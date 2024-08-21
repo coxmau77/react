@@ -1,6 +1,7 @@
 import './TwitterFollowCard.css'
 
 export function TwitterFollowCard({userName, name, isFollowing}) {
+  console.log(isFollowing);
   return (
     <article>
         <header>
