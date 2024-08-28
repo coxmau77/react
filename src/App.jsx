@@ -1,12 +1,25 @@
-import './App.css'
+import "./App.css";
+import { TodoCounter } from "./Components/TodoCounter";
+import { TodoSearch } from "./Components/TodoSearch";
+import { TodoList } from "./Components/TodoList";
+import { TodoItem } from "./Components/TodoItem";
+import CreateTodo from "./Components/CreateTodo";
+import ProfileCard from "./Components/ProfileCard";
 
 function App() {
-
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <>
+    <ProfileCard/>
+      <TodoCounter />
+      <TodoSearch />
+      <TodoList>
+        <TodoItem />
+        <TodoItem />
+        <TodoItem />
+      </TodoList>
+      <CreateTodo/>
+    </>
+  );
 }
 
-export default App
+export default App;
