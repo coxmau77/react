@@ -2,7 +2,8 @@
 
 function NotFound() {
   return (
-    <h2 className="bg-slate-500 text-2xl">NotFound</h2>
+    <h2 className="bg-red-400 text-2xl text-red-800">404 - Page Not Found</h2>
+
   )
 }
 

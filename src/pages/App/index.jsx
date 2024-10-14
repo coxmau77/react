@@ -1,5 +1,6 @@
 import { useRoutes, BrowserRouter } from "react-router-dom";
 
+// Importar los componentes para las rutas
 import About from "../About";
 import Home from "../Home";
 import Account from "../Account";
@@ -8,9 +9,10 @@ import Orders from "../Orders";
 import NotFound from "../NotFound";
 import SignIn from "../SignIn";
 
-import "./App.css";
+import "./App.css";  // Archivo de estilos opcional
 
 const AppRoutes = () => {
+  // Definir las rutas de la aplicación
   let routes = useRoutes([
     { path: "/about", element:<About />},
     { path: "/", element:<Home />},
@@ -23,14 +25,6 @@ const AppRoutes = () => {
 
   return routes;
 }
-
-{/* <About />
-<Home />
-<Account />
-<Order />
-<Orders />
-<NotFound />
-<SignIn /> */}
 
 function App() {
   return (

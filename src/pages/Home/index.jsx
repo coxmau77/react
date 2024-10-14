@@ -2,7 +2,7 @@
 
 function Home() {
   return (
-    <h2 className="bg-slate-500 text-2xl">Home</h2>
+    <h2 className="bg-slate-400 text-3xl">Home</h2>
   )
 }
 
